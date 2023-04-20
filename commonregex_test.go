@@ -18,6 +18,7 @@ func TestCommonRegex_Date(t *testing.T) {
 		"Mar 23th 2017",
 		"Mar. 23th, 2017",
 		"23 Mar 2017",
+		"23 March 2017",
 	}
 
 	for _, test := range tests {
